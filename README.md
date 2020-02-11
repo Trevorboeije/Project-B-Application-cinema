@@ -23,3 +23,5 @@ Before you update and push your own branch, make sure you have finished the foll
 - Checkout to your own branch
 - Merge the development branch into your own branch
 - Push your own branch
+
+Before you update the master branch, the development branch must have been tested completely and it must be working completely!
