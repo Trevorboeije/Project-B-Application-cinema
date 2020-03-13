@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jordanguerrero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\3D Objects\\Github\\Project-B-Application-cinema\\Cinema\\Cinema\\Cinema.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\Project-B-Application-cinema\\Cinema\\Cinema\\Cinema.csproj",
       "projectName": "Cinema",
-      "projectPath": "C:\\Users\\User\\3D Objects\\Github\\Project-B-Application-cinema\\Cinema\\Cinema\\Cinema.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\3D Objects\\Github\\Project-B-Application-cinema\\Cinema\\Cinema\\obj\\",
+      "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\Project-B-Application-cinema\\Cinema\\Cinema\\Cinema.csproj",
+      "packagesPath": "C:\\Users\\jordanguerrero\\.nuget\\packages\\",
+      "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\Project-B-Application-cinema\\Cinema\\Cinema\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jordanguerrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
