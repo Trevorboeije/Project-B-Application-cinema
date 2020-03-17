@@ -9,3 +9,7 @@ C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\D
 C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.AssemblyInfo.cs
 C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.dll
 C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.pdb
+C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.genruntimeconfig.cache
+C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.csproj.CoreCompileInputs.cache
+C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.csproj.CopyComplete
