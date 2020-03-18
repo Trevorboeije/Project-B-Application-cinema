@@ -11,14 +11,24 @@ namespace Cinema
             Zaal zaalone = new Zaal(System.IO.File.ReadAllText(@".\rooms\zaal1.json"));
             Zaal zaaltwo = new Zaal(System.IO.File.ReadAllText(@".\rooms\zaal2.json"));
             Zaal zaalthree = new Zaal(System.IO.File.ReadAllText(@".\rooms\zaal3.json"));
+
+            zaalthree.updateCreateRoom(@".\rooms\zaal3.json");
         }
     }
 
     class Zaal
     {
-        readonly char[,] layout;
-        readonly int chairs;
+        char[,] layout;
+        int chairs;
         public Zaal(string l)
+        {
+            Initialize(l);
+        }
+        public void deleteRoom()
+        {
+            
+        }
+        public void Initialize(string l)
         {
             JObject input = JObject.Parse(l);
             chairs = (int)input["chairs"];
@@ -30,6 +40,35 @@ namespace Cinema
                     inputMatrix[i, j] = inputJArray[j].ToString()[i];
                 }
             layout = inputMatrix;
+        }
+
+        public void updateCreateRoom(string room)
+        {
+            string json = System.IO.File.ReadAllText(room);
+
+            JObject fullObject = JObject.Parse(json);
+
+            JArray layoutArray = (JArray)fullObject["layout"];
+
+
+
+            for (int i = 0; i < layoutArray.Count; i++)
+            {
+                Console.WriteLine("Replace the " + (i+1) + " line? If yes give new line.");
+                string newLine = Console.ReadLine();
+                if (newLine != "")
+                {
+                    layoutArray[i] = newLine;
+                } 
+            }
+
+            Console.WriteLine("How many chairs should the room have?");
+            fullObject["chairs"] = Int32.Parse(Console.ReadLine());
+
+            string updatedString = fullObject.ToString();
+            Initialize(updatedString);
+
+            System.IO.File.WriteAllText(room , updatedString);
         }
     }
 }
