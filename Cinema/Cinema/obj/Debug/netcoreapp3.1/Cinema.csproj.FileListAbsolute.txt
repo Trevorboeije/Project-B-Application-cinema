@@ -10,9 +10,6 @@ C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\D
 C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.dll
 C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.pdb
 C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.genruntimeconfig.cache
-C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.csproj.CoreCompileInputs.cache
-C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.csproj.CopyComplete
 F:\Project-B-Application-cinema\Cinema\Cinema\bin\Debug\netcoreapp3.1\Cinema.exe
 F:\Project-B-Application-cinema\Cinema\Cinema\bin\Debug\netcoreapp3.1\Cinema.deps.json
 F:\Project-B-Application-cinema\Cinema\Cinema\bin\Debug\netcoreapp3.1\Cinema.runtimeconfig.json
@@ -26,3 +23,6 @@ F:\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.Ass
 F:\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.csproj.CopyComplete
 F:\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.dll
 F:\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.pdb
+C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.csproj.CoreCompileInputs.cache
+C:\Users\User\3D Objects\Github\Project-B-Application-cinema\Cinema\Cinema\obj\Debug\netcoreapp3.1\Cinema.csproj.CopyComplete
