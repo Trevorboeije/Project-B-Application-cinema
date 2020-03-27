@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{3959DEF7-2A83-4B2B-8CC3-2CCCBDD95994}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cinema/Search.cs">
+    <Files>
+      <File FileName="Cinema/Program.cs" Line="31" Column="15" />
+      <File FileName="Cinema/Search.cs" Line="15" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cinema" expanded="True">
+            <Node name="Cinema" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Search.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Cinema PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

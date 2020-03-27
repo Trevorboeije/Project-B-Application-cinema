@@ -1,19 +1,25 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
 using System.IO;
+using System.Collections.Generic;
 
 namespace Cinema
 {
     class Program
     {
+        public static Tuple<string, string, string> movies = new Tuple<string, string, string>("Sonic The Hedgehog", "Comedy", "12-02-2020");
+        new Tuple<string, string, string>("Birds of Prey", "Action, Comedy", "12-02-2020");
+
         static void Main(string[] args)
         {
             //this line takes the file location for the JSON files, reads the entire file, and passes it to the initializer
-            Room roomone = new Room(File.ReadAllText(@".\rooms\room1.json"));
-            Room roomtwo = new Room(File.ReadAllText(@".\rooms\room2.json"));
-            Room roomthree = new Room(File.ReadAllText(@".\rooms\room3.json"));
-            
-            roomthree.updateCreateRoom(@".\rooms\room3.json");
+            //Room roomone = new Room(File.ReadAllText(@"./rooms/room1.json"));
+            //Room roomtwo = new Room(File.ReadAllText(@"./rooms/room2.json"));
+            //Room roomthree = new Room(File.ReadAllText(@"./rooms/room3.json"));
+
+            //roomthree.updateCreateRoom(@"./rooms/room3.json")
+
+            Search search = new Search();
         }
     }
 
