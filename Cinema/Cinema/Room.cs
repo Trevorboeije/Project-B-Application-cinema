@@ -13,9 +13,9 @@ namespace Cinema
             //the actual initialization function is its own method so that it can be called manually
             Initialize(l);
         }
-        public void deleteRoom()
+        public void deleteRoom(string room)
         {
-            //TODO: D31373 the room
+             File.Delete(room);
         }
         public void Initialize(string l)
         {
@@ -37,7 +37,7 @@ namespace Cinema
             layout = inputMatrix;
         }
 
-        public void updateCreateRoom(string room)
+        public void updateRoom(string room)
         {
             //read the file as one big string and turn it into a special object
             JObject fullObject = JObject.Parse(File.ReadAllText(room));
